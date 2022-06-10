@@ -1,0 +1,13 @@
+1. Отправить http запрос на сервер http://162.55.220.72:5005/terminal-hw-request
+curl http://162.55.220.72:5005/terminal-hw-request
+
+2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+#!bin/bash
+cd test1
+mkdir test2 test3 test4
+cd test2
+touch file1.txt file2.txt file3.txt file4.json file5.json
+mkdir test5 test6 test7
+ls -la
+mv file1.txt file4.json /home/user/test1/test3
+
